@@ -1,4 +1,4 @@
-package unl.cse;
+package unl.soc;
 
 import org.joda.time.DateTime;
 import org.joda.time.Interval;

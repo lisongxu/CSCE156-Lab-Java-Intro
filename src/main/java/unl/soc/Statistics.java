@@ -1,4 +1,4 @@
-package unl.cse;
+package unl.soc;
 
 /**
  * This is a collection of utilities to compute various statistics on arrays of
@@ -34,8 +34,7 @@ public class Statistics {
 	}
 
 	/**
-	 * Computes the minimal element in the given array of
-	 * integers.
+	 * Computes the minimal element in the given array of integers.
 	 * 
 	 * @param array
 	 * @return
@@ -52,7 +51,7 @@ public class Statistics {
 		return min;
 	}
 
-	//TODO: add documentation
+	// TODO: add documentation
 	public static int getMax(int array[]) {
 		// TODO: implement
 		return 0;
