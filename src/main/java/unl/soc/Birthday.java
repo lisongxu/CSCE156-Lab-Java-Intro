@@ -32,7 +32,9 @@ Interval days_to_next_bday_i =
 double days_remaining = 
   days_to_next_bday_i.toDurationMillis() / (1000 * 60 * 60 * 24) + 1;
 
-                  //TODO: write code to output results here
+ if (today==bday) System.out.println("Happy Birthday,"+name+"!");
+      else
+    	 System.out.println("Hi "+name+", your next birthday is "+next_bday+".");
 		
 }
 }
