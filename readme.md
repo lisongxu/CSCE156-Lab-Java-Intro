@@ -261,11 +261,6 @@ a neat trick that most IDEs provide is as follows.
 3. Type the new variable name and hit enter and it will automatically 
 be changed for all instances!  
 
-Finally, every *non-trivial* class and method should have documentation.
-In Java, it is standard to use doc-style or "javadoc" comments.  Look
-at the `Statistics.java` file again to see the format for these style of comments.
-Add documentation to this file to complete it.
-
 ### 4.3 Editing and Running The Program
 
 For the variables, name, month, date, and year, enter your own 
@@ -291,7 +286,7 @@ will be presented in a JUnit tab detailing which test cases pass and
 which fail along with expected output and the actual output (for 
 failed test cases).  
 
-### 5.2 Submitting
+### 5.2 Submitting and Grading
 
 Nearly all of your labs and projects will require you to hand in source files
 for graders to compile and evaluate.  To do this, we use a web-based
@@ -319,7 +314,7 @@ To handin and grade your lab, do the following.
 <img src="images/codepost02-submission-Xu.png" alt="Codepost.io Submission" width="50%"/>
 </p>
 
-3. Click "Upload files" to upload the following two required files located in your Eclipse workspace. Then Click button "Submit and run test".
+3. Click "Upload files" to upload the following two required files located in your Eclipse workspace. Then click the "Submit and run test" button.
 
 * `Statistics.java`: You do not need to make any changes to this file
 * `Birthday.java`: Please change variable names with underscores to the preferred lowerCamelCasing convention in Java.
@@ -332,35 +327,28 @@ To handin and grade your lab, do the following.
 ***HOWEVER*** this does not mean that your program(s) worked, only that
 they were uploaded.  You ***still need to view the results!!!***
 
-5. Click on button "View test results" to
+5. Click on the "View test results" button to
 view the test results which will give you more details.  If any
-test(s) failed, you should see:
-
+test(s) failed, you should see something like the following. You can click on the + button to see more details.  
 <p align="center">
-<img src="images/codepost07-failResults-Xu.png" alt="Codepost.io Fail View" width="70%"/>
+<img src="images/codepost07-failResults-Xu.png" alt="Codepost.io Fail View" width="60%"/>
 </p>
 
-You can click on the + button to see more details.  
 
 If all tests passed, you should see something like this:
 <p align="center">
-<img src="images/codepost06-successResults-Xu.png" alt="Codepost.io Success View" width="70%"/>
+<img src="images/codepost06-successResults-Xu.png" alt="Codepost.io Success View" width="60%"/>
 </p>
 
 Some things to understand about the grading process:
 
+ * Usually if all tests passed, you will get 100 points. But some labs may be manually examined by LAs to award or deduct points.
  * If there are problems or errors with your program(s),
-   you should fix/debug them and repeat the handin/grading process.
+   you should fix them and repeat the submission process.
 	 You can do this as many times as you like up until the due date.  
- * Usually if all tests passed, you will get 100 points. But some labs may manually examined by
-   graders to award or deduct points.
  * In any case, it is **your responsibility to read, understand
-   and *address* any and all errors and/or warnings that the grader
+   and *address* any and all errors and/or warnings that codepost
    produces**.
- * The grader is a **black box** tester meaning you don't have
-   access to its internal workings.  You should properly and thoroughly test
-   and debug your programs locally instead of relying on it as a
-   "blind tester."
 
 ***Congratulations on your first lab!***
 
