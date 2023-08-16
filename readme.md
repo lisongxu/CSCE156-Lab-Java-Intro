@@ -105,7 +105,7 @@ User Interface that will allow us to work with Git).  To open
 the Git perspective, click on the "Open Perspective" tab in the 
 upper right (the screenshot may be different from the latest Eclipse):  
 <p align="center">
-<img src="images/eclipseOpenPerspectiveMarkUp-Xu.png" alt="Open Perspective" width="50%"/>
+<img src="images/eclipseOpenPerspectiveMarkUp-Xu.png" alt="Open Perspective" width="30%"/>
 </p>  
 
 2. Select "Git" from the menu and click `OK`  
@@ -177,7 +177,7 @@ Virtual Machine (JVM).
 
 4. Click on the "play" button as highlighted. Note that please click "Proceed" in the "Errors in Workspace" window that will be fixed in the next step. 
 <p align="center">
-<img src="images/eclipseScreen-Xu.png" alt="Eclipse Screen" width="50%"/>
+<img src="images/eclipseScreen-Xu.png" alt="Eclipse Screen" width="70%"/>
 </p>
 5. The output for this program will appear in the "console" tab at the bottom.
 6. Click on the console tab and enter the input as specified.
@@ -266,23 +266,11 @@ In Java, it is standard to use doc-style or "javadoc" comments.  Look
 at the `Statistics.java` file again to see the format for these style of comments.
 Add documentation to this file to complete it.
 
-### 4.3 Finishing The Program
+### 4.3 Editing and Running The Program
 
-Though the program should have no syntax errors, if you run it, no 
-output will be displayed.  You need to complete the program as follows.
+For the variables, name, month, date, and year, enter your own 
+information (your name and your birthday). Run the program and check whether the output is correct.
 
-1. For the variables, name, month, date, and year, enter your own 
-information (your name and your birthday)
-2. Add appropriate code (using `System.out.println()`) which prints 
-to the standard output a full line) a greeting similar to the following. 
-`Greetings, NAME.  Today you are XX years, XX months, and XX days old.`
-Of course, the placeholders should be replaced with variable values.  
-In Java, variable values can be concatenated with strings using the `+` 
-(plus) operator.
-3. Add a conditional statement that, if today is the user's birthday 
-will output `Happy Birthday`.  If it is not the user's birthday, output 
-`Your friends have XX shopping days until your next birthday`
-again with an appropriate variable value.
 
 ## 5. Testing, Submitting, & Grading your lab
 
