@@ -6,7 +6,7 @@ import java.util.Scanner;
  * A demonstration/driver program that interactively reads input from the user
  * (command line) and computes various statistics on the entered values.
  * 
- * @author cbourke
+ * @author cbourke, Lisong
  *
  */
 public class StatisticsDemo {
@@ -34,9 +34,6 @@ public class StatisticsDemo {
 		int sum = Statistics.getSum(array);
 		double ave = Statistics.getAverage(array);
 
-		System.out.println("The sum is " + sum);
-		System.out.println("The average is " + ave);
-		System.out.println("The highest is " + max);
 		System.out.println("The lowest is " + min);
 
 	}
