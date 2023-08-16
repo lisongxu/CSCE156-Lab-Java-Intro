@@ -342,7 +342,7 @@ If all tests passed, you should see something like this:
 
 Some things to understand about the grading process:
 
- * Usually if all tests passed, you will get 100 points. But some labs may be manually examined by LAs to award or deduct points.
+ * Usually if all tests passed, you will get 100 points. But some labs may be manually examined by LAs to award or deduct additional points after the due dates.
  * If there are problems or errors with your program(s),
    you should fix them and repeat the submission process.
 	 You can do this as many times as you like up until the due date.  
