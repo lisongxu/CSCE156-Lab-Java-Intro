@@ -148,21 +148,19 @@ into Eclipse.
 8. Switch back to your Java or JavaEE perspective and you can 
 see your cloned project.  
 
-# Java
+## 3. Running Java Programs
 
 All students should complete this Java section, even if you are 
 already familiar with Java, in order to familiarize yourself 
-with how labs will work for the semester.  Only those
+with how labs will work for the semester.
 
-## 3.1 Running & Editing Programs
+### 3.1. Running a Program
 
-### 3.1.1 Running a Program
-
-We will now familiarize you with Eclipse by editing an existing
+We will now familiarize you with Eclipse by running an existing
 project's code.
 
 1. Expand the `src` directory.  Under this we have a *package* named 
-`unl.cse`.  Java classes are organized in a hierarchy of packages.
+`unl.soc`.  Java classes are organized in a hierarchy of packages.
 Packages correspond to actual directories in your file system.  
 
 2. Expand the package and you'll find several *classes*.	All Java code 
@@ -177,25 +175,15 @@ Classes without a `main` method can be used by other classes, but
 they cannot be run by themselves as an entry point for the Java 
 Virtual Machine (JVM).
 
-4. Click on the "play" button as highlighted (click "Proceed" if prompted):
+4. Click on the "play" button as highlighted. Note that please click "Proceed" in the "Errors in Workspace" window that will be fixed in the next step. 
 <p align="center">
-<img src="images/eclipseScreen.png" alt="Eclipse Screen" width="50%"/>
+<img src="images/eclipseScreen-Xu.png" alt="Eclipse Screen" width="50%"/>
 </p>
 5. The output for this program will appear in the "console" tab at the bottom.
 6. Click on the console tab and enter the input as specified.
 
-### 3.1.2 Completing the Statistics Program
 
-Though the program runs, it does not output correct answers.  You 
-will need to modify these classes to complete the program.
-
-1. Implement the `getMax()` method in the `Statistics` class.  Use the 
-`getMin()`	method for directions on syntax.
-2. Implement the `getSum()` method in the `Statistics` class.  Use the 
-other methods for direction on syntax.
-3. Rerun the program to verify that it now works.
-
-### 3.1.3 Modifying the Statistics Program
+### 3.2. Modifying the Statistics Program
 
 The program you've completed is interactive in that it prompts the 
 user for input.  You will now change the program to instead use *command 
