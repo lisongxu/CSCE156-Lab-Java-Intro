@@ -2,9 +2,9 @@
 ## Lab 1.0 - Introduction
 
 An introduction to the Java programming language and tools 
-including Eclipse, Eclipse Git client, etc.  
+including Eclipse, Eclipse Git client, CodePost, etc.  
 
-This is a lab used in Computer Science II (CSCE 156, CSCE 156H) 
+This is a lab used in Computer Science II (CSCE 156) for Fall 2023 
 in the [School of Computing](https://computing.unl.edu) 
 at the [University of Nebraska-Lincoln](https://unl.edu).
 
@@ -12,12 +12,10 @@ at the [University of Nebraska-Lincoln](https://unl.edu).
 
 ### Lab Objectives & Topics
 Following the lab, you should be able to:
-* Receive and activate your CSE account and log into the network 
-  using a Windows machine and your CSE account.
-* Clone projects from GitHub using Eclipse
-* Open, compile, and execute a given Java program in Eclipse.
-* Write a simple program in the Eclipse IDE, compile, and 
-  execute that program.
+* Receive and activate your SoC account.
+* Clone projects from GitHub using Eclipse.
+* Open, edit, compile, and execute a given Java program in Eclipse.
+* Submit and grade your code using CodePost.
 
 
 ### Peer Programming Pair-Up
@@ -51,16 +49,14 @@ lab.
 
 ## 1. Getting Started
 
-### 1.1. Setup
+#### 1.1. Claim your SoC Account  
 
-#### 1.1.1. Claim your CSE Account  
-
-If you do not yet have your CSE credentials, you can claim them
+If you do not yet have your SoC credentials, you can claim them
 at the following URL: https://cse-apps.unl.edu/amu/claim 
-If you already have a CSE account but do not remember your 
+If you already have a SoC account but do not remember your 
 password you can reset it at the same URL. 
 
-#### 1.1.2. Install Java Developer Kit  
+#### 1.2. Install Java Developer Kit  
 
 You may already have "Java" installed on your computer, but this
 is most likely the Java Virtual Machine (JVM) that allows you to
@@ -72,7 +68,7 @@ URL.  Follow the instructions for downloading and installing.
 
 https://www.oracle.com/java/technologies/javase-downloads.html
 
-#### 1.1.3. Install Eclipse
+#### 1.3. Install Eclipse
 
 Eclipse is an Integrated Development Environment (IDE) for 
 Java development.  There are many other popular IDEs available 
@@ -85,7 +81,7 @@ Eclipse at the following URL.
 https://www.eclipse.org/
 
 ***IMPORTANT*** When you run the installer be sure to select and
-install the **Eclipse IDE for Enterprise Java Developers** and
+install the **Eclipse IDE for Enterprise and Web Developers** and
 *not* the one just for Java Developers.  We'll use some of the 
 features of this version in future labs.
 
@@ -107,9 +103,9 @@ want to reference this step-by-step process in subsequent labs.
 1. First we need a Git *perspective* (a context in the Eclipse 
 User Interface that will allow us to work with Git).  To open 
 the Git perspective, click on the "Open Perspective" tab in the 
-upper right:  
+upper right (the screenshot may be different from the latest Eclipse):  
 <p align="center">
-<img src="images/eclipseOpenPerspectiveMarkUp.png" alt="Open Perspective" width="50%"/>
+<img src="images/eclipseOpenPerspectiveMarkUp-Xu.png" alt="Open Perspective" width="50%"/>
 </p>  
 
 2. Select "Git" from the menu and click `OK`  
@@ -117,33 +113,39 @@ upper right:
 3. Click the "Clone a Git repository" in the Git Repositories 
 navigation menu:
 <p align="center">
-<img src="images/eclipseGitRepoMarkUp.png" alt="Clone a Git repository" width="50%"/>
+<img src="images/eclipseGitRepoMarkUp-Xu.png" alt="Clone a Git repository" width="50%"/>
 </p>  
 
-4. Copy/paste or type into the URI field, the URL: 
-   https://github.com/cbourke/CSCE156-Lab01  
+4. Select "Clone URI" and click `Next`
 <p align="center">
-<img src="images/eclipseCloneDialogAMarkUp.png" alt="URL" width="50%"/>
+<img src="images/eclipseCloneURI-Xu.png" alt="Clone URI" width="50%"/>
+</p>  
+
+
+5. Copy/paste or type into the URI field, the URL: 
+https://github.com/lisongxu/CSCE156-Lab-Java-Intro
+<p align="center">
+<img src="images/eclipseCloneDialogAMarkUp-Xu.png" alt="URL" width="50%"/>
 </p>
 
-5. Click `Next`; once Eclipse has grabbed the project, the 
+6. Click `Next`; once Eclipse has grabbed the project, the 
 "master" branch should be selected (checkbox); click `Next` 
 again.  
 <p align="center">
-<img src="images/eclipseCloneDialogBMarkUp.png" alt="URL" width="50%"/>
+<img src="images/eclipseCloneDialogBMarkUp-Xu.png" alt="URL" width="50%"/>
 </p>
 
-6. Select the directory where you want your project to be saved.  
+7. Select the directory where you want your project to be saved.  
 Caution: the default option may not correspond to your default 
 workspace.  You will want to change it to your workspace.  Mark 
 the "Import all existing projects after clone finishes" checkbox 
 option or you will need to manually import the cloned project 
 into Eclipse.  
 <p align="center">
-<img src="images/eclipseCloneDialogCMarkUp.png" alt="URL" width="50%"/>
+<img src="images/eclipseCloneDialogCMarkUp-Xu.png" alt="URL" width="50%"/>
 </p>
 
-7. Switch back to your Java or JavaEE perspective and you can 
+8. Switch back to your Java or JavaEE perspective and you can 
 see your cloned project.  
 
 # Java
