@@ -3,6 +3,13 @@ package unl.soc;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+/**
+ * A demonstration test file.
+ * 
+ * @author cbourke, Lisong
+ *
+ */
+
 public class StatisticsTests {
 
 	/**
