@@ -290,37 +290,37 @@ the file is complete.
 will be presented in a JUnit tab detailing which test cases pass and
 which fail along with expected output and the actual output (for 
 failed test cases).  
-3. Address any issues or failing tests by debugging your code and 
-rerun the test suite until all tests pass.
 
 ### 5.2 Submitting
 
-Many of your assignments will include a programming portion that will 
-require you to hand in *soft-copy* source files for graders to 
-compile and evaluate.  To do this, you will use a web-based handin 
-program.  After handing your file(s) in, you can then grade them by 
-using the web grader.  To demonstrate, do the following.
+Nearly all of your labs and projects will require you to hand in source files
+for graders to compile and evaluate.  To do this, we use a web-based
+assessment app called codepost.io (<https://codepost.io>).  
 
-1. Open a browser to https://cse-apps.unl.edu/handin
-2. Login with your **CSE credentials**
-3. Click on Lab 1.0 and hand in the `Statistics.java` source file.  
-You can either click the large 
-"handin" area and select the file or you can drag-drop the files.  You 
-will be able to re-handin the same file as many times as you want up 
-until the due date.
+You should have received an invitation to this website from your
+instructor through your email account (typically your `@huskers.unl.edu`
+email or whatever email you have associated with on Canvas).  If
+you have access, great.  If not, go to <https://codepost.io/forgot-password>
+and "reset" your password (even if you never initially set one).  Be
+sure to use your huskers email or whatever primary email is associated
+with your canvas profile.
+
+To handin and grade your lab, do the following.
+
+
+1. Login to <https://codepost.io>.  It should immediately take you to the
+   assignment submission page:
+
+
+2. Upload the `Statistics.java` source file.  
+
+
 
 ### 5.3 Grading
 
 Now that the file has been handed in, you can "grade" yourself 
 by using the webgrader
 
-1. Open a new tab/window and point your browser 
-to https://cse.unl.edu/~cse156/grade (depending on your section, this 
-URL may be different).
-2. Fill the form with your CSE login and password, select the 
-appropriate assignment and click "Grade"
-3. Observe the expected output and compare it to your output to be
-sure that your program is correct.  
 
 For labs, the grader script simply runs the provided JUnit test
 suite, but it *may* run additional or modified tests.  In any case,
