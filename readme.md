@@ -310,8 +310,9 @@ To handin and grade your lab, do the following.
 
 1. Login to <https://codepost.io>.  It should immediately take you to the
    assignment submission page:
-
-[Codepost.io Assignments](img/codepost01-assignments-Xu.png)
+<p align="center">
+<img src="images/codepost01-assignments-Xu.png" alt="Codepost.io Assignments" width="50%"/>
+</p>
 
 2. Click "Upload Assignment" which will bring up a dialog box.
 3. Click "Upload files" and select the `Statistics.java` source file in your Eclipse workspace.
