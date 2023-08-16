@@ -4,21 +4,11 @@
 An introduction to the Java programming language and tools 
 including Eclipse, Eclipse Git client, etc.  
 
-A separate folder containing a PHP version of this lab is
-included for the honors section.  Instructions for the PHP
-version can be found below.
-
 This is a lab used in Computer Science II (CSCE 156, CSCE 156H) 
-in the [Department of Computer Science & Engineering](https://cse.unl.edu) 
+in the [School of Computing](https://computing.unl.edu) 
 at the [University of Nebraska-Lincoln](https://unl.edu).
 
 ## Overview
-
-### Prior to Lab
-
-In each lab there may be pre-lab activities that you are *required* 
-to complete prior to attending lab.  Failure to do so may mean that 
-you will not be given full credit for the lab.  
 
 ### Lab Objectives & Topics
 Following the lab, you should be able to:
@@ -34,9 +24,9 @@ Following the lab, you should be able to:
 
 To encourage collaboration and a team environment, labs will be
 structured in a *pair programming* setup.  At the start of
-each lab, you may be randomly paired up with another student by
+each lab, you may find a team member by yourself or may be randomly paired up with another student by
 a lab instructor.  One of you will be designated the *driver* 
-and the other the *navigator*.  
+and the other the *navigator*. If you prefer to work on this lab by yourself, that is fine too.  
 
 The navigator will be responsible for reading the instructions 
 and telling the driver what is to be done.  The driver will be 
@@ -53,8 +43,8 @@ instructor to resolve issues only when you cannot come to a
 consensus.  
 
 Because of the peer programming setup of labs, it is absolutely 
-essential that you complete any pre-lab activities and familiarize
-yourself with the handouts prior to coming to lab.  Failure to do
+essential that you complete any pre-lab activities (if any) and familiarize
+yourself with the handouts (if any) prior to coming to lab.  Failure to do
 so will negatively impact your ability to collaborate and work with 
 others which may mean that you will not be able to complete the
 lab.  
