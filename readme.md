@@ -315,20 +315,53 @@ To handin and grade your lab, do the following.
 </p>
 
 2. Click "Upload Assignment" which will bring up a dialog box.
-3. Click "Upload files" and select the `Statistics.java` source file in your Eclipse workspace.
-4. Finally click the "Submit" button.  
+<p align="center">
+<img src="images/codepost02-submission-Xu.png" alt="Codepost.io Submission" width="50%"/>
+</p>
 
+3. Click "Upload files" to upload the following two required files located in your Eclipse workspace. Then Click button "Submit and run test".
 
-### 5.3 Grading
+* `Statistics.java`: You do not need to make any changes to this file
+* `Birthday.java`: Please change variable names with underscores to the preferred lowerCamelCasing convention in Java.
 
-Now that the file has been handed in, you can "grade" yourself 
-by using the webgrader
+4. You should see something like the following:
+<p align="center">
+<img src="images/codepost04-success-Xu.png" alt="Codepost.io Success" width="50%"/>
+</p>
 
+***HOWEVER*** this does not mean that your program(s) worked, only that
+they were uploaded.  You ***still need to view the results!!!***
 
-For labs, the grader script simply runs the provided JUnit test
-suite, but it *may* run additional or modified tests.  In any case,
-be sure your code compiles, runs and **passes all test**s in the
-webgrader.  Address any issues and resubmit as many times as you 
-like up to the due date.  Only labs that pass all tests will be
-given credit.
+5. Click on button "View test results" to
+view the test results which will give you more details.  If any
+test(s) failed, you should see:
+
+<p align="center">
+<img src="images/codepost07-failResults-Xu.png" alt="Codepost.io Fail View" width="70%"/>
+</p>
+
+You can click on the + button to see more details.  
+
+If all tests passed, you should see something like this:
+<p align="center">
+<img src="images/codepost06-successResults-Xu.png" alt="Codepost.io Success View" width="70%"/>
+</p>
+
+Some things to understand about the grading process:
+
+ * If there are problems or errors with your program(s),
+   you should fix/debug them and repeat the handin/grading process.
+	 You can do this as many times as you like up until the due date.  
+ * Usually if all tests passed, you will get 100 points. But some labs may manually examined by
+   graders to award or deduct points.
+ * In any case, it is **your responsibility to read, understand
+   and *address* any and all errors and/or warnings that the grader
+   produces**.
+ * The grader is a **black box** tester meaning you don't have
+   access to its internal workings.  You should properly and thoroughly test
+   and debug your programs locally instead of relying on it as a
+   "blind tester."
+
+***Congratulations on your first lab!***
+
 
