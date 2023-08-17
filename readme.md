@@ -29,8 +29,7 @@ The navigator will be responsible for reading the instructions
 and telling the driver what is to be done.  The driver will be 
 in charge of the keyboard and workstation.  Both driver and 
 navigator are responsible for suggesting fixes and solutions 
-*together*.  Neither the navigator nor the driver is "in charge."  
-Beyond your immediate pairing, you are encouraged to help and 
+*together*.  Neither the navigator nor the driver is "in charge."  Beyond your immediate pairing, you are encouraged to help and 
 interact and with other pairs in the lab.
 
 Each week you should try to alternate: if you were a driver 
