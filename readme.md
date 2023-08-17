@@ -309,7 +309,7 @@ To handin and grade your lab, do the following.
 
 3. Click "Upload files" to upload the following two required files located in your Eclipse workspace. Then click the "Submit and run test" button.
 
-* `Statistics.java`: You do not need to make any changes to this file
+* `Statistics.java`: You do not need to make any changes to this file, as this lab just shows you how CodePost works.
 * `Birthday.java`: Please change variable names with underscores to the preferred lowerCamelCasing convention in Java.
 
 4. You should see something like the following:
