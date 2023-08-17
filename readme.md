@@ -39,13 +39,6 @@ were both drivers last week) within your pair.  Ask the lab
 instructor to resolve issues only when you cannot come to a 
 consensus.  
 
-Because of the peer programming setup of labs, it is absolutely 
-essential that you complete any pre-lab activities (if any) and familiarize
-yourself with the handouts (if any) prior to coming to lab.  Failure to do
-so will negatively impact your ability to collaborate and work with 
-others which may mean that you will not be able to complete the
-lab.  
-
 ***note that, each student must submit the code to CodePost for grading.***
 
 ## 1. Getting Started
