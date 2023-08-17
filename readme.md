@@ -12,10 +12,9 @@ at the [University of Nebraska-Lincoln](https://unl.edu).
 
 ### Lab Objectives & Topics
 Following the lab, you should be able to:
-* Receive and activate your SoC account.
 * Clone projects from GitHub using Eclipse.
-* Open, edit, compile, and execute a given Java program in Eclipse.
-* Submit and grade your code using CodePost.
+* Open, edit, and execute a given Java program in Eclipse.
+* Submit and test your code using CodePost.
 
 
 ### Peer Programming Pair-Up
@@ -47,16 +46,11 @@ so will negatively impact your ability to collaborate and work with
 others which may mean that you will not be able to complete the
 lab.  
 
+***note that, each student must submit the code to CodePost for grading.***
+
 ## 1. Getting Started
 
-#### 1.1. Claim your SoC Account  
-
-If you do not yet have your SoC credentials, you can claim them
-at the following URL: https://cse-apps.unl.edu/amu/claim 
-If you already have a SoC account but do not remember your 
-password you can reset it at the same URL. 
-
-#### 1.2. Install Java Developer Kit  
+#### 1.1. Install Java Developer Kit  
 
 You may already have "Java" installed on your computer, but this
 is most likely the Java Virtual Machine (JVM) that allows you to
@@ -68,7 +62,7 @@ URL.  Follow the instructions for downloading and installing.
 
 https://www.oracle.com/java/technologies/javase-downloads.html
 
-#### 1.3. Install Eclipse
+#### 1.2. Install Eclipse
 
 Eclipse is an Integrated Development Environment (IDE) for 
 Java development.  There are many other popular IDEs available 
@@ -183,7 +177,7 @@ Virtual Machine (JVM).
 6. Click on the console tab and enter the input as specified.
 
 
-### 3.2. Modifying the Statistics Program
+### 3.2. Modifying the Program
 
 The program you've completed is interactive in that it prompts the 
 user for input.  You will now change the program to instead use *command 
@@ -261,13 +255,13 @@ a neat trick that most IDEs provide is as follows.
 3. Type the new variable name and hit enter and it will automatically 
 be changed for all instances!  
 
-### 4.3 Editing and Running The Program
+### 4.3 Editing and Running the Program
 
 For the variables, name, month, date, and year, enter your own 
 information (your name and your birthday). Run the program and check whether the output is correct.
 
 
-## 5. Testing, Submitting, & Grading your lab
+## 5. Testing and Submitting Your Lab
 
 ### 5.1 Testing
 
@@ -286,7 +280,7 @@ will be presented in a JUnit tab detailing which test cases pass and
 which fail along with expected output and the actual output (for 
 failed test cases).  
 
-### 5.2 Submitting and Grading
+### 5.2 Submitting
 
 Nearly all of your labs and projects will require you to hand in source files
 for graders to compile and evaluate.  To do this, we use a web-based
@@ -301,7 +295,6 @@ sure to use your huskers email or whatever primary email is associated
 with your canvas profile.
 
 To handin and grade your lab, do the following.
-
 
 1. Login to <https://codepost.io>.  It should immediately take you to the
    assignment submission page:
@@ -340,14 +333,15 @@ If all tests passed, you should see something like this:
 <img src="images/codepost06-successResults-Xu.png" alt="Codepost.io Success View" width="60%"/>
 </p>
 
-Some things to understand about the grading process:
+Some things to understand about the lab grading process:
 
- * Usually if all tests passed, you will get full credit. But some labs may be manually examined by LAs to award or deduct additional points after the due dates according to the specific lab requirements if any.
+ * For this lab, as long as you pass all the tests, you will get full credit for the lab.
+ * Some future labs may be manually examined by LAs to award or deduct additional points according to the specific lab requirements.
  * If there are problems or errors with your program(s),
    you should fix them and repeat the submission process.
 	 You can do this as many times as you like up until the due date.  
  * In any case, it is **your responsibility to read, understand
-   and *address* any and all errors and/or warnings that codepost
+   and *address* any and all errors and/or warnings that CodePost
    produces**.
 
 ***Congratulations on your first lab!***
