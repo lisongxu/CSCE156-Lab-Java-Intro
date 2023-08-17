@@ -278,13 +278,7 @@ Nearly all of your labs and projects will require you to hand in source files
 for graders to compile and evaluate.  To do this, we use a web-based
 assessment app called codepost.io (<https://codepost.io>).  
 
-You should have received an invitation to this website from your
-instructor through your email account (typically your `@huskers.unl.edu`
-email or whatever email you have associated with on Canvas).  If
-you have access, great.  If not, go to <https://codepost.io/forgot-password>
-and "reset" your password (even if you never initially set one).  Be
-sure to use your huskers email or whatever primary email is associated
-with your canvas profile.
+If you have not joined CSCE156 on CodePost yet, please follow the instructions and link in the Syllabus slides on Canvas. Note that you must use the email that is associated with your Canvas account to sign up for CodePost, otherwise, we are unable to synchronize between your CodePost grades and Canvas grades. 
 
 To handin and grade your lab, do the following.
 
@@ -294,7 +288,7 @@ To handin and grade your lab, do the following.
 <img src="images/codepost01-assignments-Xu.png" alt="Codepost.io Assignments" width="50%"/>
 </p>
 
-2. Click "Upload Assignment" which will bring up a dialog box.
+2. Click "Upload Assignment" for this lab, which will bring up a dialog box.
 <p align="center">
 <img src="images/codepost02-submission-Xu.png" alt="Codepost.io Submission" width="50%"/>
 </p>
