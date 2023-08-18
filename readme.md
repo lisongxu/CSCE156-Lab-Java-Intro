@@ -264,8 +264,7 @@ a suite of *unit tests* using the JUnit testing framework.  Before
 you submit your lab, you should run these tests locally to verify 
 that your code is correct.  
 
-1. Open the `StatisiticsTests.java` source file in the `src/test/java`
-source folder.  This file contains several unit tests written using
+1. Expand the `src/test/java` directory, then expand the `unl.soc` package, and then double click on the `StatisiticsTests.java` file to open it. This file contains several unit tests written using
 JUnit *annotations*.  You are encouraged to explore how these tests
 are written and work and to even add your own tests but otherwise, 
 the file is complete.
