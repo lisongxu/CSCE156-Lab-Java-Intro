@@ -171,7 +171,7 @@ Virtual Machine (JVM).
 6. Click on the console tab and enter the input as specified.
 
 
-### 3.2. Modifying the Program
+### 3.2. Using Command Line Arguments
 
 The program you've completed is interactive in that it prompts the 
 user for input.  You will now change the program to instead use *command 
