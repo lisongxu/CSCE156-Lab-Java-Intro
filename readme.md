@@ -320,9 +320,12 @@ If all tests passed, you should see something like this:
 <img src="images/codepost06-successResults-Xu.png" alt="Codepost.io Success View" width="60%"/>
 </p>
 
+
+### 5.3 Grading
+
 Some things to understand about the lab grading process:
 
- * For this lab, as long as you pass all the tests, you will get full credit for the lab.
+ * For this lab, as long as you pass all the tests on Codepost, you will get full credit for the lab.
  * Some future labs may be manually examined by LAs to award or deduct additional points according to the specific lab requirements.
  * If there are problems or errors with your program(s),
    you should fix them and repeat the submission process.
