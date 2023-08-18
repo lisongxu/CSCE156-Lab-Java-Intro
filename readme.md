@@ -38,7 +38,7 @@ were both drivers last week) within your pair.  Ask the lab
 instructor to resolve issues only when you cannot come to a 
 consensus.  
 
-***note that, each student must submit the code to CodePost for grading.***
+***Note that, each student must submit the code to CodePost for grading.***
 
 ## 1. Getting Started
 
