@@ -165,7 +165,9 @@ Virtual Machine (JVM).
 <p align="center">
 <img src="images/eclipseScreen-Xu.png" alt="Eclipse Screen" width="70%"/>
 </p>
+
 5. The output for this program will appear in the "console" tab at the bottom.
+
 6. Click on the console tab and enter the input as specified.
 
 
