@@ -111,7 +111,7 @@ navigation menu:
 
 
 5. Copy/paste or type into the URI field, the URL: 
-https://github.com/lisongxu/CSCE156-Lab-Java-Intro
+`https://github.com/lisongxu/CSCE156-Lab-Java-Intro`
 <p align="center">
 <img src="images/eclipseCloneDialogAMarkUp-Xu.png" alt="URL" width="50%"/>
 </p>
