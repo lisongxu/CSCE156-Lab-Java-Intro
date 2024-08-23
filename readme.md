@@ -165,7 +165,7 @@ Virtual Machine (JVM).
 
 4. Click on the "play" button as highlighted. Note that please click "Proceed" in the "Errors in Workspace" window which will be fixed in the next step. 
 <p align="center">
-<img src="images/eclipseScreen-Xu.png" alt="Eclipse Screen" width="70%"/>
+<img src="images/eclipseScreen-Xu.png" alt="Eclipse Screen" width="90%"/>
 </p>
 
 5. The output for this program will appear in the "console" tab at the bottom.
@@ -282,14 +282,14 @@ to compile and evaluate.  To do this, we use GradeScope.
 
 To hand in and grade your lab, do the following.
 
-1. Go to Lab 1 on Canvas, and click the "Load Lab 1 in a new window" button
+1. Go to Lab 1 on Canvas, and click the "Load Lab 1 in a new window" button which opens a GradeScope window for Lab 1
 <p align="center">
 <img src="images/GradeScope-1-Lab1.png" alt="Canvas Lab1" width="50%"/>
 </p>
 
 2. Drag and Drop the following file located in your Eclipse workspace. Then click the "Upload" button.
 
-* `Statistics.java`: You do not need to make any changes to this file, as this lab just shows you how CodePost works.
+* `Statistics.java`: You do not need to make any changes to this file, as this lab just shows you how GradeScope works.
 
 <p align="center">
 <img src="images/GradeScope-2-Upload.png" alt="GradeScope Upload" width="50%"/>
@@ -297,12 +297,12 @@ To hand in and grade your lab, do the following.
 
 3. It takes a while for the website to grade your code. If all tests are passed, you should see something like this:
 <p align="center">
-<img src="images/GradeScope-3-Pass.png" alt="GradeScope Success View" width="70%"/>
+<img src="images/GradeScope-3-Pass.png" alt="GradeScope Success View" width="80%"/>
 </p>
 
 4. If any test(s) failed, you should see something like the following. 
 <p align="center">
-<img src="images/GradeScope-4-Fail.png" alt="GradeScope Fail View" width="70%"/>
+<img src="images/GradeScope-4-Fail.png" alt="GradeScope Fail View" width="80%"/>
 </p>
 
 
