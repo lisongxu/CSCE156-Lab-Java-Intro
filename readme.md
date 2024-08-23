@@ -4,7 +4,7 @@
 An introduction to the Java programming language and tools 
 including Eclipse, Eclipse Git client, GradeScope, etc.  
 
-This is a lab used in Computer Science II (CSCE 156) for Fall 2023 
+This is a lab used in Computer Science II (CSCE 156) for Fall 2024 
 in the [School of Computing](https://computing.unl.edu) 
 at the [University of Nebraska-Lincoln](https://www.unl.edu).
 
@@ -147,23 +147,23 @@ with how labs will work for the semester.
 We will now familiarize you with Eclipse by running an existing
 project's code.
 
-1. Expand the `src/main/java` directory.  Under this we have a *package* named 
+1. Expand the `src/main/java` directory.  Under this, we have a *package* named 
 `unl.soc`.  Java classes are organized in a hierarchy of packages.
 Packages correspond to actual directories in your file system.  
 
-2. Expand the package and you'll find several *classes*.	All Java code 
+2. Expand the package and you'll find several *classes*. All Java code 
 must be contained in a class.  This is in contrast to other languages 
-that may allow global variables or allow functions to exist without an 
+that may allow global variables or functions to exist without an 
 object or a class.
 
-3. Double click on the `StatisticsDemo` class to open it in the Eclipse 
+3. Double-click on the `StatisticsDemo` class to open it in the Eclipse 
 editor.  This class contains a main method, `public static void main(String args[])`
 In Java, classes are executable only if a main method is defined.  
 Classes without a `main` method can be used by other classes, but 
-they cannot be run by themselves as an entry point for the Java 
+they cannot be run by themselves as an entry point for Java 
 Virtual Machine (JVM).
 
-4. Click on the "play" button as highlighted. Note that please click "Proceed" in the "Errors in Workspace" window that will be fixed in the next step. 
+4. Click on the "play" button as highlighted. Note that please click "Proceed" in the "Errors in Workspace" window which will be fixed in the next step. 
 <p align="center">
 <img src="images/eclipseScreen-Xu.png" alt="Eclipse Screen" width="70%"/>
 </p>
@@ -177,7 +177,7 @@ Virtual Machine (JVM).
 
 The program you've completed is interactive in that it prompts the 
 user for input.  You will now change the program to instead use *command 
-line arguments* to read in the list of numbers directly from the command 
+line arguments* to read the list of numbers directly from the command 
 line.
 
 Command line arguments are available to your main method through 
@@ -202,7 +202,7 @@ and click "Run".
 
 ## 4. IDE Orientation
 
-In the next activities you'll get more familiar with using Eclipse and the
+In the next activities, you'll get more familiar with using Eclipse and the
 convenient functionality IDEs provide.  
 
 ### 4.1 Using External Libraries
@@ -236,7 +236,7 @@ code formatter functionality.  Typically if you write good code to begin
 with it will automatically provide consistent indentation and other 
 stylistic features.  It is best practice to get in the habit of writing 
 good, clean code automatically.  However, if you need to clean up a file 
-in one shot you can do use the auto-formatter feature.  
+in one shot you can use the auto-formatter feature.  
 
 * On Windows: press `control-shift-f` to reformat the code
 * On Mac: press `shift-command-f` to reformat the code
@@ -247,7 +247,7 @@ for some of its variables.  Change the variable names to the preferred
 a neat trick that most IDEs provide is as follows.
 
 1. Highlight the variable name (any instance will do)
-2. Right click and select `Refactor` then `Rename`
+2. Right-click and select `Refactor` then `Rename`
 3. Type the new variable name and hit enter and it will automatically 
 be changed for all instances!  
 
@@ -268,73 +268,56 @@ that your code is correct.
 
 1. Expand the `src/test/java` directory, then expand the `unl.soc` package, and then double click on the `StatisiticsTests.java` file to open it. This file contains several unit tests written using
 JUnit *annotations*.  You are encouraged to explore how these tests
-are written and work and to even add your own tests but otherwise, 
+are written and work and even add your own tests but otherwise, 
 the file is complete.
 2. Run the test suite by clicking the usual "Play" button.  A report
 will be presented in a JUnit tab detailing which test cases pass and
-which fail along with expected output and the actual output (for 
+which fail along with the expected output and the actual output (for 
 failed test cases).  
 
 ### 5.2 Submitting
 
-Nearly all of your labs and projects will require you to hand in source files
-for graders to compile and evaluate.  To do this, we use a web-based
-assessment app called codepost.io (<https://codepost.io>).  
+Nearly all of your labs will require you to hand in source files
+to compile and evaluate.  To do this, we use GradeScope.  
 
-If you have not joined CSCE156 on CodePost yet, please follow the instructions and link in the Syllabus slides on Canvas. Note that you must use the email that is associated with your Canvas account to sign up for CodePost, otherwise, we are unable to synchronize between your CodePost grades and Canvas grades. 
+To hand in and grade your lab, do the following.
 
-To handin and grade your lab, do the following.
-
-1. Login to <https://codepost.io>.  It should immediately take you to the
-   assignment submission page:
+1. Go to Lab 1 on Canvas, and click the "Load Lab 1 in a new window" button
 <p align="center">
-<img src="images/codepost01-assignments-Xu.png" alt="Codepost.io Assignments" width="50%"/>
+<img src="images/GradeScope-1-Lab1.png" alt="Canvas Lab1" width="50%"/>
 </p>
 
-2. Click "Upload Assignment" for this lab, which will bring up a dialog box.
-<p align="center">
-<img src="images/codepost02-submission-Xu.png" alt="Codepost.io Submission" width="50%"/>
-</p>
-
-3. Click "Upload files" to upload the following two required files located in your Eclipse workspace. Then click the "Submit and run test" button.
+2. Drag and Drop the following file located in your Eclipse workspace. Then click the "Upload" button.
 
 * `Statistics.java`: You do not need to make any changes to this file, as this lab just shows you how CodePost works.
-* `Birthday.java`: ***Please change all variable names with underscores to the preferred lowerCamelCasing convention in Java***.
 
-4. You should see something like the following:
 <p align="center">
-<img src="images/codepost04-success-Xu.png" alt="Codepost.io Success" width="50%"/>
+<img src="images/GradeScope-2-Upload.png" alt="GradeScope Upload" width="50%"/>
 </p>
 
-***HOWEVER*** this does not mean that your program(s) worked, only that
-they were uploaded.  You ***still need to view the results!!!***
-
-5. Click on the "View test results" button to
-view the test results which will give you more details.  If any
-test(s) failed, you should see something like the following. You can click on the + button to see more details.  
+3. It takes a while for the website to grade your code. If all tests are passed, you should see something like this:
 <p align="center">
-<img src="images/codepost07-failResults-Xu.png" alt="Codepost.io Fail View" width="60%"/>
+<img src="images/GradeScope-3-Pass.png" alt="GradeScope Success View" width="70%"/>
+</p>
+
+4. If any test(s) failed, you should see something like the following. 
+<p align="center">
+<img src="images/GradeScope-4-Fail.png" alt="GradeScope Fail View" width="70%"/>
 </p>
 
 
-If all tests passed, you should see something like this:
-<p align="center">
-<img src="images/codepost06-successResults-Xu.png" alt="Codepost.io Success View" width="60%"/>
-</p>
 
 
 ### 5.3 Grading
 
 Some things to understand about the lab grading process:
 
- * For this lab, as long as you pass all the tests on Codepost, you will get full points for the lab.
- * Some future labs may be manually examined by LAs to award or deduct additional points according to the specific lab requirements.
+ * For this lab, as long as you pass all the tests on GradeScope, you will get full points for the lab.
  * If there are problems or errors with your program(s),
    you should fix them and repeat the submission process.
 	 You can do this as many times as you like up until the due date.  
  * In any case, it is **your responsibility to read, understand
-   and *address* any and all errors and/or warnings that CodePost
-   produces**.
+   and *address* any and all errors and/or warnings that GradeScope produces**.
 
 ***Congratulations on your first lab!***
 
