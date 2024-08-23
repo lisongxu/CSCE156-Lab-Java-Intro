@@ -2,7 +2,7 @@
 ## Lab 1.0 - Introduction
 
 An introduction to the Java programming language and tools 
-including Eclipse, Eclipse Git client, CodePost, etc.  
+including Eclipse, Eclipse Git client, GradeScope, etc.  
 
 This is a lab used in Computer Science II (CSCE 156) for Fall 2023 
 in the [School of Computing](https://computing.unl.edu) 
@@ -14,7 +14,7 @@ at the [University of Nebraska-Lincoln](https://www.unl.edu).
 Following the lab, you should be able to:
 * Clone projects from GitHub using Eclipse.
 * Open, edit, and execute a given Java program in Eclipse.
-* Submit and test your code using CodePost.
+* Submit and test your code using GradeScope.
 
 Note that the lab may involve some concepts, classes, or methods not covered (yet) in the class. You should be able to complete the lab without fully understanding them. If you have any questions about them, please feel free to ask our LAs. 
 
@@ -23,16 +23,16 @@ Note that the lab may involve some concepts, classes, or methods not covered (ye
 
 To encourage collaboration and a team environment, labs will be
 structured in a *pair programming* setup.  At the start of
-each lab, you may find a team member by yourself or may be randomly paired up with another student by
+each lab, you may find a team member by yourself or be randomly paired up with another student by
 a lab instructor.  One of you will be designated the *driver* 
-and the other the *navigator*. If you prefer to work on this lab by yourself, that is fine too.  
+and the other is the *navigator*. If you prefer to work on this lab by yourself, that is fine too.  
 
 The navigator will be responsible for reading the instructions 
 and telling the driver what is to be done.  The driver will be 
-in charge of the keyboard and workstation.  Both driver and 
+in charge of the keyboard and workstation.  Both the driver and 
 navigator are responsible for suggesting fixes and solutions 
 *together*.  Neither the navigator nor the driver is "in charge."  Beyond your immediate pairing, you are encouraged to help and 
-interact and with other pairs in the lab.
+interact with other pairs in the lab.
 
 Each week you should try to alternate: if you were a driver 
 last week, be a navigator next, etc.  Resolve any issues (you 
@@ -40,7 +40,7 @@ were both drivers last week) within your pair.  Ask the lab
 instructor to resolve issues only when you cannot come to a 
 consensus.  
 
-***Note that, each student must submit the code to CodePost for grading.***
+***Note that each student must submit the code to GradeScope for grading.***
 
 ## 1. Getting Started
 
@@ -48,7 +48,7 @@ consensus.
 
 You may already have "Java" installed on your computer, but this
 is most likely the Java Virtual Machine (JVM) that allows you to
-run Java programs.  To actually develop Java programs you need a
+run Java programs.  To develop Java programs you need a
 Java Development Kit (JDK).  There are several alternative JDKs
 and you are welcome to explore them, but for this course, we are
 recommending Oracle's JDK available for download at the following
@@ -70,14 +70,14 @@ https://www.eclipse.org/
 
 ***IMPORTANT*** When you run the installer be sure to select and
 install the **Eclipse IDE for Enterprise and Web Developers** and
-*not* the one just for Java Developers.  We'll use some of the 
+*not* the one just for Java Developers.  We might use some of the 
 features of this version in future labs.
 
 ## 2. Checking Out Code From Github Using Eclipse
 
 Each lab will have some starter code and other *artifacts* 
-(data files, scripts, etc.) that will be provided for to you.  
-The code is hosted on Github (https://github.com) and you must 
+(data files, scripts, etc.) that will be provided for you.  
+The code is hosted on GitHub (https://github.com) and you must 
 *clone* your own copy to work with it.  You will not need to 
 know the details of using git nor be a registered Github user 
 to get access to the code necessary for your labs.  However, 
