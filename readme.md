@@ -287,7 +287,7 @@ To hand in and grade your lab, do the following.
 <img src="images/GradeScope-1-Lab1.png" alt="Canvas Lab1" width="50%"/>
 </p>
 
-2. Drag and Drop the following file located in your Eclipse workspace. Then click the "Upload" button.
+2. Drag and Drop only the following file located in your Eclipse workspace. Then click the "Upload" button. Do not upload any other files.
 
 * `Statistics.java`: You do not need to make any changes to this file, as this lab just shows you how GradeScope works.
 
