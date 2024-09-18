@@ -289,7 +289,7 @@ To hand in and grade your lab, do the following.
 
 2. Drag and Drop only the following file located in your Eclipse workspace. Then click the "Upload" button. **Do not upload any other files**.
 
-* **`Statistics.java`**: You do not need to make any changes to this file, as this lab just shows you how GradeScope works.
+* ***`Statistics.java`***: You do not need to make any changes to this file, as this lab just shows you how GradeScope works.
 
 <p align="center">
 <img src="images/GradeScope-2-Upload.png" alt="GradeScope Upload" width="50%"/>
@@ -316,10 +316,10 @@ Some things to understand about the lab grading process:
  
  * You can submit your program to GradeScope as many times as you like up until the due date.
  
- * What if the test on GradeScope fails? Please test your programs locally on your computer using the provided JUnit test suite, because the test on GradeScope is exactly the same as the provided JUnit test suite. Debugging your programs on GradeScope is not recommended because GradeScope gives very limited information.
+ * What if the test on GradeScope fails? Please test your programs locally on your computer using the provided JUnit test suite, because the test on GradeScope is exactly the same as the provided JUnit test suite. ***Debugging your programs on GradeScope is not recommended because GradeScope gives very limited information.***
 
- * In any case, it is **your responsibility to read, understand
-   and *address* any and all errors and/or warnings that GradeScope produces**.
+ * In any case, it is your responsibility to read, understand
+   and address any and all errors and/or warnings that GradeScope produces.
 
 ***Congratulations on your first lab!***
 
