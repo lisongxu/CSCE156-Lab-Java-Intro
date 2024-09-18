@@ -313,9 +313,11 @@ To hand in and grade your lab, do the following.
 Some things to understand about the lab grading process:
 
  * For this lab, as long as you pass all the tests on GradeScope, you will get full points for the lab.
- * If there are problems or errors with your program(s),
-   you should fix them and repeat the submission process.
-	 You can do this as many times as you like up until the due date.  
+ 
+ * You can submit your program to GradeScope as many times as you like up until the due date.
+ 
+ * What if the test on GradeScope fails? Please test your programs locally on your computer using the provided JUnit test suite, because the test on GradeScope is exactly the same as the provided JUnit test suite. It is not recommended to debug your programs on GradeScope because GradeScope gives very limited information.
+
  * In any case, it is **your responsibility to read, understand
    and *address* any and all errors and/or warnings that GradeScope produces**.
 
