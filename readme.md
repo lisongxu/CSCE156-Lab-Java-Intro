@@ -1,5 +1,5 @@
 # Computer Science II
-## Lab 1.0 - Introduction
+## Lab 1 - Introduction
 
 An introduction to the Java programming language and tools 
 including Eclipse, Eclipse Git client, GradeScope, etc.  
