@@ -304,7 +304,7 @@ To hand in and grade your lab, do the following.
 <img src="images/GradeScope-WrongOutput.png" alt="GradeScope Fail View" width="80%"/>
 </p>
 
-5. If you did not submit all required files or submit any additional files, you should see something like the following. For this lab, a common mistake is submitting `StatisiticsTests.java` instead of `Statistics.java`.
+5. If you submitted the wrong files, you should see something like the following. For this lab, a common mistake is submitting `StatisiticsTests.java` instead of `Statistics.java`.
 <p align="center">
 <img src="images/GradeScope-WrongFile.png" alt="GradeScope Fail View" width="80%"/>
 </p>
