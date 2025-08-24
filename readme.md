@@ -174,15 +174,35 @@ user for input.  You will now change the program to instead use *command
 line arguments* to read the list of numbers directly from the command 
 line.
 
-Command line arguments are available to your main method through 
-the `args` array of Strings.  The size of this array 
-can be obtained by using `args.length` which is an
-integer.  Modify your code to iterate through this array and convert 
-the arguments to integers using the following snippet of code:
+Replace the following code in the `main` method
 
 ```java
-for(int i=0; i<args.length; i++) {
-  array[i] = Integer.parseInt(args[i]);
+		Scanner s = new Scanner(System.in);
+
+		System.out.println("Please input the number of integers being entered (>=2): ");
+		int n = s.nextInt();
+		if (n < 2) {
+			System.out.println("Error: please enter at least 2");
+			System.exit(1);
+		}
+		int array[] = new int[n];
+
+		for (int i = 0; i < n; i++) {
+			System.out.println("Enter another integer: ");
+			array[i] = s.nextInt();
+		}
+		s.close();
+```
+
+with the following snippet of code. Command line arguments are available to your main method through the `args` array of Strings.  The size of this array 
+can be obtained by using `args.length` which is an
+integer. 
+
+```java
+  int array[] = new int[args.length];
+
+  for(int i=0; i<args.length; i++) {
+    array[i] = Integer.parseInt(args[i]);
 }
 ```
 
