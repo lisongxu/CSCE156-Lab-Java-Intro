@@ -72,9 +72,7 @@ features of this version in future labs.
 ## 2. Checking Out Code From GitHub Using Eclipse
 
 Each lab will have some starter code and other *artifacts* 
-(data files, scripts, etc.) that will be provided for you.  
-The code is hosted on GitHub (https://github.com) and you must 
-*clone* your own copy to work with it.  You will not need to 
+(data files, scripts, etc.) that will be provided for you. The code is hosted on GitHub (https://github.com) and you must *clone* your own copy to work with it.  You will not need to 
 know the details of using git nor be a registered GitHub user 
 to get access to the code necessary for your labs.  However, 
 you are *highly encouraged* to learn this essential tool.  
