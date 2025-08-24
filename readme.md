@@ -72,12 +72,7 @@ features of this version in future labs.
 ## 2. Checking Out Code From GitHub Using Eclipse
 
 Each lab will have some starter code and other *artifacts* 
-(data files, scripts, etc.) that will be provided for you. The code is hosted on GitHub (https://github.com) and you must *clone* your own copy to work with it.  You will not need to 
-know the details of using git nor be a registered GitHub user 
-to get access to the code necessary for your labs.  However, 
-you are *highly encouraged* to learn this essential tool.  
-You may find it very useful to keep track of your own code 
-and to share code if you work in pairs or groups.  
+(data files, scripts, etc.) that will be provided for you. The code is hosted on GitHub (https://github.com) and you must *clone* your own copy to work with it.  You will not need to know the details of using git nor be a registered GitHub user to get access to the code necessary for your labs.  However, you are *highly encouraged* to learn this essential tool.  You may find it very useful to keep track of your own code and to share code if you work in pairs or groups.  
 
 To check out the code for this lab, do the following.  You may 
 want to reference this step-by-step process in subsequent labs.
@@ -85,7 +80,7 @@ want to reference this step-by-step process in subsequent labs.
 1. First, we need a Git *perspective* (a context in the Eclipse 
 User Interface that will allow us to work with Git).  To open 
 the Git perspective, click on the "Open Perspective" tab in the 
-upper right (the screenshot may be different from the latest Eclipse):  
+upper right (the screenshot may be different from the latest Eclipse), and then select "Git":  
 <p align="center">
 <img src="images/eclipseOpenPerspectiveMarkUp-Xu.png" alt="Open Perspective" width="30%"/>
 </p>  
@@ -127,8 +122,13 @@ into Eclipse.
 <img src="images/eclipseCloneDialogCMarkUp-Xu.png" alt="URL" width="50%"/>
 </p>
 
-8. Switch back to your ***Java or JavaEE perspective***, and you can 
-see your cloned project.  
+8. Switch back to your ***Java or Java EE perspective***, and you can 
+see your cloned project.  To open 
+the Java or Java EE Git perspective, click on the "Open Perspective" tab in the 
+upper right, and then select "Java" or "Java EE":  
+<p align="center">
+<img src="images/eclipseOpenPerspectiveMarkUp-Xu.png" alt="Open Perspective" width="30%"/>
+</p>  
 
 ## 3. Running Java Programs
 
