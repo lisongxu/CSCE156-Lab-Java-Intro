@@ -4,7 +4,7 @@
 An introduction to the Java programming language and tools 
 including Eclipse, Eclipse Git client, GradeScope, etc.  
 
-This is a lab used in Computer Science II (CSCE 156) for Fall 2024 
+This is a lab used in Computer Science II (CSCE 156) for Fall 2025 
 in the [School of Computing](https://computing.unl.edu) 
 at the [University of Nebraska-Lincoln](https://www.unl.edu).
 
@@ -23,18 +23,17 @@ Note that the lab may involve some concepts, classes, or methods not covered (ye
 
 To encourage collaboration and a team environment, labs will be
 structured in a *pair programming* setup.  At the start of
-each lab, you may find a team member by yourself or be randomly paired up with another student by
-a lab instructor.  One of you will be designated the *driver* 
-and the other is the *navigator*. If you prefer to work on this lab by yourself, that is fine too.  
+each lab, you may find a team member by yourself.  One of you will be designated the *driver* 
+and the other is the *navigator*. If you prefer to work on this lab alone, that is fine too.  
 
 The navigator will be responsible for reading the instructions 
-and telling the driver what is to be done.  The driver will be 
+and telling the driver what will be done.  The driver will be 
 in charge of the keyboard and workstation.  Both the driver and 
 navigator are responsible for suggesting fixes and solutions 
 *together*.  Neither the navigator nor the driver is "in charge."  Beyond your immediate pairing, you are encouraged to help and 
 interact with other pairs in the lab.
 
-Each week you should try to alternate: if you were a driver 
+Each week, you should try to alternate: if you were a driver 
 last week, be a navigator next, etc.  Resolve any issues (you 
 were both drivers last week) within your pair.  Ask the lab 
 instructor to resolve issues only when you cannot come to a 
@@ -48,38 +47,35 @@ consensus.
 
 You may already have "Java" installed on your computer, but this
 is most likely the Java Virtual Machine (JVM) that allows you to
-run Java programs.  To develop Java programs you need a
-Java Development Kit (JDK).  There are several alternative JDKs
-and you are welcome to explore them, but for this course, we are
-recommending Oracle's JDK available for download at the following
-URL.  Follow the instructions for downloading and installing.
+run Java programs.  To develop Java programs, you need a
+Java Development Kit (JDK).  There are several alternative JDKs, and you are welcome to explore them, but for this course, we are
+recommending ***Amazon's Corretto***, available for download at the following URL.  Follow the instructions for downloading and installing.
 
-https://www.oracle.com/java/technologies/javase-downloads.html
+https://aws.amazon.com/corretto/
 
 #### 1.2. Install Eclipse
 
 Eclipse is an Integrated Development Environment (IDE) for 
-Java development.  There are many other popular IDEs available 
-and you are welcome (and encouraged) to try them out and use 
+Java development.  There are many other popular IDEs available, and you are welcome (and encouraged) to try them out and use 
 them if you wish.  However, for this course, most instructions
-will assume the use of Eclipse and it is the IDE we will 
+will assume the use of Eclipse, and it is the IDE we will 
 primarily use for this course.  You can download and install
 Eclipse at the following URL.
 
 https://www.eclipse.org/
 
-***IMPORTANT*** When you run the installer be sure to select and
-install the **Eclipse IDE for Enterprise and Web Developers** and
-*not* the one just for Java Developers.  We might use some of the 
+When you run the installer, be sure to select and
+install the Eclipse IDE for Enterprise and Web Developers and
+not the one just for Java Developers.  We might use some of the 
 features of this version in future labs.
 
-## 2. Checking Out Code From Github Using Eclipse
+## 2. Checking Out Code From GitHub Using Eclipse
 
 Each lab will have some starter code and other *artifacts* 
 (data files, scripts, etc.) that will be provided for you.  
 The code is hosted on GitHub (https://github.com) and you must 
 *clone* your own copy to work with it.  You will not need to 
-know the details of using git nor be a registered Github user 
+know the details of using git nor be a registered GitHub user 
 to get access to the code necessary for your labs.  However, 
 you are *highly encouraged* to learn this essential tool.  
 You may find it very useful to keep track of your own code 
@@ -88,7 +84,7 @@ and to share code if you work in pairs or groups.
 To check out the code for this lab, do the following.  You may 
 want to reference this step-by-step process in subsequent labs.
 
-1. First we need a Git *perspective* (a context in the Eclipse 
+1. First, we need a Git *perspective* (a context in the Eclipse 
 User Interface that will allow us to work with Git).  To open 
 the Git perspective, click on the "Open Perspective" tab in the 
 upper right (the screenshot may be different from the latest Eclipse):  
@@ -96,7 +92,7 @@ upper right (the screenshot may be different from the latest Eclipse):
 <img src="images/eclipseOpenPerspectiveMarkUp-Xu.png" alt="Open Perspective" width="30%"/>
 </p>  
 
-2. Select "Git" from the menu and click `OK`  
+2. Select "Git" from the menu and click `Open`  
 
 3. Click the "Clone a Git repository" in the Git Repositories 
 navigation menu:
@@ -133,7 +129,7 @@ into Eclipse.
 <img src="images/eclipseCloneDialogCMarkUp-Xu.png" alt="URL" width="50%"/>
 </p>
 
-8. Switch back to your Java or JavaEE perspective and you can 
+8. Switch back to your ***Java or JavaEE perspective***, and you can 
 see your cloned project.  
 
 ## 3. Running Java Programs
