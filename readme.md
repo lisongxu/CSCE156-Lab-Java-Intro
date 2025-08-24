@@ -296,12 +296,22 @@ To hand in and grade your lab, do the following.
 
 3. It takes a while for the website to grade your code. If all tests are passed, you should see something like this:
 <p align="center">
-<img src="images/GradeScope-3-Pass.png" alt="GradeScope Success View" width="80%"/>
+<img src="images/GradeScope-Pass.png" alt="GradeScope Success View" width="80%"/>
 </p>
 
 4. If any test(s) failed, you should see something like the following. 
 <p align="center">
-<img src="images/GradeScope-4-Fail.png" alt="GradeScope Fail View" width="80%"/>
+<img src="images/GradeScope-WrongOutput.png" alt="GradeScope Fail View" width="80%"/>
+</p>
+
+5. If you did not submit all required files or submit any additional files, you should see something like the following. For this lab, a common mistake is submitting `StatisiticsTests.java` instead of `Statistics.java`.
+<p align="center">
+<img src="images/GradeScope-WrongFile.png" alt="GradeScope Fail View" width="80%"/>
+</p>
+
+6. If your files do not compile, you should see something like the following. 
+<p align="center">
+<img src="images/GradeScope-Compliation.png" alt="GradeScope Fail View" width="80%"/>
 </p>
 
 
