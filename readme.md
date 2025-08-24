@@ -124,7 +124,7 @@ into Eclipse.
 
 8. Switch back to your ***Java or Java EE perspective***, and you can 
 see your cloned project.  To open 
-the Java or Java EE Git perspective, click on the "Open Perspective" tab in the 
+the Java or Java EE perspective, click on the "Open Perspective" tab in the 
 upper right, and then select "Java" or "Java EE":  
 <p align="center">
 <img src="images/eclipseOpenPerspectiveMarkUp-Xu.png" alt="Open Perspective" width="30%"/>
