@@ -244,21 +244,12 @@ errors should go away.
 
 ### 4.2 Cleaning Up
 
-Though the syntax errors should now be resolved, the code isn't pretty
-making it difficult to read and understand.  Eclipse provides a built-in
-code formatter functionality.  Typically if you write good code to begin
-with it will automatically provide consistent indentation and other 
-stylistic features.  It is best practice to get in the habit of writing 
-good, clean code automatically.  However, if you need to clean up a file 
-in one shot you can use the auto-formatter feature.  
+Though the syntax errors should now be resolved, the code isn't pretty, making it difficult to read and understand.  Eclipse provides a built-in code formatter functionality.  Typically, if you write good code to begin with, it will automatically provide consistent indentation and other stylistic features.  It is best practice to get in the habit of writing good, clean code automatically.  However, if you need to clean up a file in one shot, you can use the auto-formatter feature.  
 
 * On Windows: press `control-shift-f` to reformat the code
 * On Mac: press `shift-command-f` to reformat the code
 
-Another issue with the code is that it is using `lower_underscore_casing` 
-for some of its variables.  Change the variable names to the preferred 
-`lowerCamelCasing` convention in Java.  You could do this manually but 
-a neat trick that most IDEs provide is as follows.
+Another issue with the code is that it is using `lower_underscore_casing` for some of its variables.  Change the variable names to the preferred `lowerCamelCasing` convention in Java.  You could do this manually but a neat trick that most IDEs provide is as follows.
 
 1. Highlight the variable name (any instance will do)
 2. Right-click and select `Refactor` then `Rename`
@@ -280,14 +271,8 @@ a suite of *unit tests* using the JUnit testing framework.  Before
 you submit your lab, you should run these tests locally to verify 
 that your code is correct.  
 
-1. Expand the `src/test/java` directory, then expand the `unl.soc` package, and then double click on the `StatisiticsTests.java` file to open it. This file contains several unit tests written using
-JUnit *annotations*.  You are encouraged to explore how these tests
-are written and work and even add your own tests but otherwise, 
-the file is complete.
-2. Run the test suite by clicking the usual "Play" button.  A report
-will be presented in a JUnit tab detailing which test cases pass and
-which fail along with the expected output and the actual output (for 
-failed test cases).  
+1. Expand the `src/test/java` directory, then expand the `unl.soc` package, and then double click on the `StatisiticsTests.java` file to open it. This file contains several unit tests written using JUnit *annotations*.  You are encouraged to explore how these tests are written and work and even add your own tests but otherwise, the file is complete.
+2. Run the test suite by clicking the usual "Play" button.  A report will be presented in a JUnit tab detailing which test cases pass and which fail along with the expected output and the actual output (for failed test cases).  
 
 ### 5.2 Submitting
 
