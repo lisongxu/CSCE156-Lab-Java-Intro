@@ -311,7 +311,7 @@ To hand in and grade your lab, do the following.
 
 6. If your files do not compile, you should see something like the following. 
 <p align="center">
-<img src="images/GradeScope-Compliation.png" alt="GradeScope Fail View" width="80%"/>
+<img src="images/GradeScope-Compilation.png" alt="GradeScope Fail View" width="80%"/>
 </p>
 
 
